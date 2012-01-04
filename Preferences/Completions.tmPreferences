@@ -121,6 +121,7 @@
 			<string>gl_MaxGeometryTextureImageUnits</string>
 			<string>gl_MaxImageSample</string>
 			<string>gl_MaxImageUnit</string>
+			<string>gl_MaxLights</string>
 			<string>gl_MaxPatchVertices</string>
 			<string>gl_MaxProgramTexelOffset</string>
 			<string>gl_MaxTessControlAtomicCounter</string>

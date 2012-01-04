@@ -80,7 +80,7 @@
 				(?:Max(?:AtomicCounter(?:Binding|BufferSize)|ClipDistance|CombinedAtomicCounter(?:Buffer)?|CombinedImage(?:Uniform|UnitsAndFragmentOutput)|CombinedTextureImageUnits|DrawBuffer|FragmentAtomicCounter(?:Buffer)?|FragmentImageUniform|Fragment(?:Input|Uniform)Components|FragmentUniformVectors|GeometryAtomicCounter(?:Buffer)?|GeometryImageUniform|Geometry(?:Input|(?:Total)?Output|Uniform|Varying)?Components|GeometryOutputVertices|GeometryTextureImageUnits|Image(?:Sample|Unit)|PatchVertices|ProgramTexelOffset|Tess(?:Control|Evaluation)AtomicCounter(?:Buffer)?|Tess(?:Control|Evaluation)ImageUniform|(?:Tess(?:Control|Evaluation))?TextureImageUnits|TessControl(?:Input|(?:Total)?Output|Uniform)Components|TessEvaluation(?:Input|Output|Uniform)Components|TessGenLevel|TessPatchComponents|Varying(?:Components|Vectors)|Vertex(?:AtomicCounter(?:Buffer)?|Attribs|ImageUniform|(?:Output|Uniform)Components|TextureImageUnits|UniformVectors)|Viewports)|MinProgramTexelOffset)|
 
 				# Compatibility Profile Built-In Constants
-				Max(?:ClipPlanes|Texture(?:Coords|Units)|VaryingFloats)
+				Max(?:ClipPlanes|Lights|Texture(?:Coords|Units)|VaryingFloats)
 
 			)\b</string>
 			<key>name</key>
