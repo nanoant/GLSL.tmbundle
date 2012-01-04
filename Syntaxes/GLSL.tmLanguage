@@ -66,7 +66,7 @@
 				(?:(?:Front|Back)(Secondary)?|Frag)?Color|(?:Clip)?Vertex|(?:Fog(?:Frag)?|Tex)Coord|FragData|MultiTexCoord[0-7]|Normal|
 
 				# Compatibility Profile State
-				(?:ModelView|Projection|ModelViewProjection|Texture)Matrix(?:Inverse)(?:Transpose)?|Normal(?:Matrix|Scale)|ClipPlane|Point|(?:Front|Back)?Material|Light(?:Source|Model)|(?:Front|Back)Light(?:Model)?Product|TextureEnvColor|(?:Eye|Object)Plane[STRQ]|Fog
+				(?:ModelView|Projection|ModelViewProjection|Texture)Matrix(?:Inverse)?(?:Transpose)?|Normal(?:Matrix|Scale)|ClipPlane|Point|(?:Front|Back)?Material|Light(?:Source|Model)|(?:Front|Back)Light(?:Model)?Product|TextureEnvColor|(?:Eye|Object)Plane[STRQ]|Fog
 
 			)\b</string>
 			<key>name</key>
