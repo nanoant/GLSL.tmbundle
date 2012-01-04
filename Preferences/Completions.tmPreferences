@@ -34,8 +34,9 @@
 			<string>gl_VertexID</string>
 			<string>gl_ViewportIndex</string>
 			<string>gl_Color</string>
-			<string>gl_Color</string>
+			<string>gl_FrontColor</string>
 			<string>gl_FrontSecondaryColor</string>
+			<string>gl_BackColor</string>
 			<string>gl_BackSecondaryColor</string>
 			<string>gl_FragColor</string>
 			<string>gl_Vertex</string>
@@ -54,12 +55,20 @@
 			<string>gl_MultiTexCoord7</string>
 			<string>gl_Normal</string>
 			<string>gl_ModelViewMatrix</string>
+			<string>gl_ModelViewMatrixTranspose</string>
+			<string>gl_ModelViewMatrixInverse</string>
 			<string>gl_ModelViewMatrixInverseTranspose</string>
 			<string>gl_ProjectionMatrix</string>
+			<string>gl_ProjectionMatrixTranspose</string>
+			<string>gl_ProjectionMatrixInverse</string>
 			<string>gl_ProjectionMatrixInverseTranspose</string>
 			<string>gl_ModelViewProjectionMatrix</string>
+			<string>gl_ModelViewProjectionMatrixTranspose</string>
+			<string>gl_ModelViewProjectionMatrixInverse</string>
 			<string>gl_ModelViewProjectionMatrixInverseTranspose</string>
 			<string>gl_TextureMatrix</string>
+			<string>gl_TextureMatrixTranspose</string>
+			<string>gl_TextureMatrixInverse</string>
 			<string>gl_TextureMatrixInverseTranspose</string>
 			<string>gl_NormalMatrix</string>
 			<string>gl_NormalScale</string>
@@ -244,6 +253,7 @@
 			<string>textureQueryLod</string>
 			<string>textureProj</string>
 			<string>textureProjOffset</string>
+			<string>textureProjLod</string>
 			<string>textureProjLodOffset</string>
 			<string>textureOffset</string>
 			<string>textureGrad</string>
@@ -253,19 +263,39 @@
 			<string>textureGather</string>
 			<string>textureGatherOffset</string>
 			<string>textureGatherOffsets</string>
-			<string>texture</string>
-			<string>textureLod</string>
+			<string>texture1D</string>
+			<string>texture1DLod</string>
+			<string>texture1DProj</string>
 			<string>texture1DProjLod</string>
+			<string>texture2D</string>
+			<string>texture2DLod</string>
+			<string>texture2DProj</string>
 			<string>texture2DProjLod</string>
+			<string>texture3D</string>
+			<string>texture3DLod</string>
+			<string>texture3DProj</string>
 			<string>texture3DProjLod</string>
+			<string>textureCube</string>
+			<string>textureCubeLod</string>
+			<string>textureCubeProj</string>
 			<string>textureCubeProjLod</string>
 			<string>texelFetch</string>
 			<string>texelFetchOffset</string>
-			<string>shadow</string>
-			<string>shadowLod</string>
+			<string>shadow1D</string>
+			<string>shadow1DLod</string>
+			<string>shadow1DProj</string>
 			<string>shadow1DProjLod</string>
+			<string>shadow2D</string>
+			<string>shadow2DLod</string>
+			<string>shadow2DProj</string>
 			<string>shadow2DProjLod</string>
+			<string>shadow3D</string>
+			<string>shadow3DLod</string>
+			<string>shadow3DProj</string>
 			<string>shadow3DProjLod</string>
+			<string>shadowCube</string>
+			<string>shadowCubeLod</string>
+			<string>shadowCubeProj</string>
 			<string>shadowCubeProjLod</string>
 			<string>atomicCounter</string>
 			<string>atomicCounterIncrement</string>
